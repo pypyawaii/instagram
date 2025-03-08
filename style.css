@@ -1,6 +1,6 @@
-/* h2 {
-    color: red;
-} */
+body {
+    font-size: 3vw;
+}
 
 .highlight {
     /* border: solid; */
@@ -16,14 +16,35 @@
 }
 
 #profile_info {
-    height: 50px;
+    height: 15vw;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
+
+#profile_pic {
+    width: 15vw;
+    height: 15vw;
+}
+
+
+.highlight_pic {
+    width: 10vw;
+    height: 10vw;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#highlight_area {
+    display: grid;
+    grid-template-columns: 12vw 12vw 1fr;
+}
+
+
 #id {
-    font-size: 18px;
+    font-size: 6vw;
     font-weight: 100;
 }
 
@@ -60,29 +81,11 @@
     object-fit: cover;
 }
 
-#profile_pic {
-    width: 50px;
-    height: 50px;
-}
-
-.highlight_pic {
-    width: 35px;
-    height: 35px;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#highlight_area {
-    display: grid;
-    grid-template-columns: 45px 45px 1fr;
-}
-
 button {
     height: 80%;
     width: 95%;
 
-    font-size: 10px;
+    font-size: 3vw;
 
     background-color: white;
 
@@ -91,14 +94,15 @@ button {
 }
 
 #top {
-    height: 30px;
+    height: 10vw;
+    min-height: 10vw;
 
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
 
     border-bottom: solid 1px gray;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+    margin-bottom: 3vw;
+    /* padding-bottom: 5px; */
 }
 
 #top img {
@@ -106,7 +110,10 @@ button {
     margin-right: auto;
 
     height: 100%;
+    width: 100%;
     object-fit: contain;
+
+    /* border: solid 2px red; */
 }
 
 #top input {
@@ -121,7 +128,7 @@ button {
     border: solid 1px gray;
     border-radius: 3px;
 
-    font-size: 10px;
+    font-size: 3vw;
     font-weight: 100;
 }
 
@@ -130,12 +137,12 @@ i {
 }
 
 #top i {
-    font-size: 14px;
+    font-size: 4vw;
 }
 
 #top div {
     text-align: center;
-    padding-top: 8px;
+    padding-top: 3vw;
 }
 
 #sub_icons {
@@ -143,9 +150,9 @@ i {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     text-align: center;
-    font-size: 15px;
+    font-size: 5vw;
 
-    height: 30px;
+    height: 8vw;
 }
 
 .selected {
