@@ -1,0 +1,9 @@
+p {
+    background-color: skyblue;
+}
+.desktop {
+    display: block;
+}
+.mobile {
+    display: none;
+}

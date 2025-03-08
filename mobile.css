@@ -1,0 +1,12 @@
+p {
+    background-color: pink;
+}
+img {
+    display: none;
+}
+.mobile {
+    display: block;
+}
+.desktop {
+    display: none;
+}
